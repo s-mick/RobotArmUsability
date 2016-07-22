@@ -20,6 +20,15 @@ The experiment takes place as a way to assess the usability of various control m
 
 The experiment is built over a center-out target-reaching task: the robot endpoint starts at a default position, and the subject has to make it move so it reaches a target and dwells on it for a short time. Measurements of movement time and accuracy are performed during this task and provide an objective evaluation of the performance that can be achieved with each of the available modes.
 
+## Conduct the experiment ##
+
+* `gripperarm.py` is a small module interfacing the physical Poppy robot with IKPy features. It is imported by every script using the physical robot.
+* Run `ExpTargetOrder.py` to generate a target order based on a set of targets. Target positions and order will be saved as a `.npz` archive file.
+* Run `demoTrial.py` to illustrate the task to a subject
+* Run `GoalDriving.py` to conduct one experimental sequence. Raw force data, trajectories and metrics values will be saved as `.npz` archive files. This script only requires PsychoPy.
+* Run `statExploit.py` to perform statistical analysis on the metrics values generated during the experimentals sequences
+* Run `trajPlot` to display cross sections of the endpoint trajectories performed during an experiment by one subject
+
 ## Documentation ##
 
 The source files contain a basic inline documentation in English. The documents describing the project, experiment and protocol are available only in French. A detailed forum post on these works is available [here]()
