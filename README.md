@@ -25,7 +25,7 @@ The experiment is built over a center-out target-reaching task: the robot endpoi
 * `gripperarm.py` is a small module interfacing the physical Poppy robot with IKPy features. It is imported by every script using the physical robot.
 * Run `ExpTargetOrder.py` to generate a target order based on a set of targets. Target positions and order will be saved as a `.npz` archive file.
 * Run `demoTrial.py` to illustrate the task to a subject
-* Run `GoalDriving.py` to conduct one experimental sequence. Raw force data, trajectories and metrics values will be saved as `.npz` archive files. This script only requires PsychoPy.
+* Run `GoalDriving.py` to conduct one experimental sequence. Raw force data, trajectories and metrics values will be saved as `.npz` archive files. Only this script requires PsychoPy.
 * Run `statExploit.py` to perform statistical analysis on the metrics values generated during the experimentals sequences
 * Run `trajPlot` to display cross sections of the endpoint trajectories performed during an experiment by one subject
 
