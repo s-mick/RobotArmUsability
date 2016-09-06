@@ -2,7 +2,7 @@
 
 Software framework for the usability assessment of a robotic arm prosthesis, based on a center-out target-reaching task
 
-This framework was developed during an engineering school six-month internship at [FLOWERS](https://flowers.inria.fr) research team from Inria, in collaboration with [Hybrid](https://u-bordeaux.fr) team from INCIA. This work is part of a project addressing the design of robotic arm prostheses and methods to drive these prostheses with physiological signals.
+This framework was developed during an engineering school six-month internship at [FLOWERS](https://flowers.inria.fr) research team from Inria, in collaboration with [Hybrid](https://www.incia.u-bordeaux1.fr/) team from INCIA. This work is part of a project addressing the design of robotic arm prostheses and methods to drive these prostheses with physiological signals.
 
 ## Development ##
 
@@ -31,4 +31,4 @@ The experiment is built over a center-out target-reaching task: the robot endpoi
 
 ## Documentation ##
 
-The source files contain a basic inline documentation in English. The documents describing the project, experiment and protocol are available only in French. A detailed forum post on these works is available [here]()
+The source files contain a basic inline documentation in English. The documents describing the project, experiment and protocol are available only in French. A detailed forum post on these works is available [here](https://forum.poppy-project.org/t/real-time-control-of-a-poppy-right-arm-with-a-force-sensor-and-usability-assessment-of-several-control-modes/2633)
