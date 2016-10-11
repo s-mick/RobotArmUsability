@@ -2,7 +2,7 @@
 
 Software framework for the usability assessment of a robotic arm prosthesis, based on a center-out target-reaching task
 
-This framework was developed during an engineering school six-month internship at [FLOWERS](https://flowers.inria.fr) research team from Inria, in collaboration with [Hybrid](https://www.incia.u-bordeaux1.fr/) team from INCIA. This work is part of a project addressing the design of robotic arm prostheses and methods to drive these prostheses with physiological signals.
+This framework was developed during an engineering school six-month internship at [FLOWERS](https://flowers.inria.fr) research team from Inria, in collaboration with [Hybrid](http://www.incia.u-bordeaux1.fr/spip.php?article340) team from INCIA. This work is part of a project addressing the design of robotic arm prostheses and methods to drive these prostheses with physiological signals.
 
 ## Development ##
 
